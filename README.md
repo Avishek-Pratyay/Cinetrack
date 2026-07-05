@@ -6,8 +6,9 @@ watched status, rate movies, filter and search in real time, and persist everyth
 locally in the browser.
 
 
-**Live Demo:** 
-**Repository:** 
+**Live Demo:** https://cine-track-two-rho.vercel.app/
+
+**Repository:** https://github.com/Avishek-Pratyay/CineTrack
 
 ---
 
