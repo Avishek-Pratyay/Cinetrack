@@ -28,7 +28,7 @@ Every requirement from the assignment brief is implemented and mapped to source 
 | 8 | Real-time search by title | ✅ | `Controls.jsx` search input + filter logic in `App.jsx` |
 | 9 | Simulated async experience with loading spinner/skeleton | ✅ | `useMovies.js` (900ms artificial delay while parsing state) + `SkeletonCard.jsx` |
 | 10 | Local/hardcoded data with state persistence | ✅ | `initialMovies.js` (seed data) + full `localStorage` read/write in `useMovies.js` |
-| 11 | Minimalist, production-ready UI | ✅ | Custom Tailwind CSS v4 design system (see [Design](#-design)) |
+| 11 | Minimalist, production-ready UI | ✅ | Custom Tailwind CSS v4 design system |
 
 ---
 
@@ -52,8 +52,8 @@ a literal checklist implementation:
 
 | Layer | Choice |
 |---|---|
-| Framework | React 19 (functional components + hooks) |
-| Build tool | Vite 8 |
+| Framework | React  |
+| Build tool | Vite  |
 | Styling | Tailwind CSS v4 (`@tailwindcss/postcss`) |
 | Icons | lucide-react |
 | State management | React `useState` / custom hooks — no external library |
@@ -96,11 +96,6 @@ cinetrack/
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) v18 or later (v20+ recommended)
-- npm (bundled with Node.js)
-
 ### 1. Clone the repository
 
 ```bash
@@ -139,7 +134,7 @@ npm run preview
 
 ## ☁️ Deployment (Vercel)
 
-1. Push the repository to GitHub (see [Contributing / Commit History](#-commit-history)).
+1. Push the repository to GitHub.
 2. Go to [vercel.com](https://vercel.com) → **New Project** → import the GitHub repo.
 3. Vercel auto-detects the Vite preset:
    - **Build Command:** `npm run build`
